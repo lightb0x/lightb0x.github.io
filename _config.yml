@@ -120,19 +120,6 @@ content:
           Trash classification on Arduino Nano 33 BLE and Raspberry Pi 2.
 
           From training various models(MbV1, MbV2, ShV2) on resized imagenet(96x96, 128x128, ...), fine-tuning on trashnet down to actually running on hardwares.
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Seoul National University, Computer Science & Engineering
-        sub_title: Graduate
-        caption: 2021.9 ~
-      - layout: left
-        title: Seoul National University, Computer Science & Engineering
-        sub_title: Undergraduate
-        caption: 2015.3 ~ 2017.7 // 2019.7 ~ 2021.8
-        description: | # this will include new lines to allow paragraphs
-          Ph.D candidate at CMALab
   - title: Coursework TA
     layout: list
     content:
@@ -163,16 +150,30 @@ content:
         caption: 2020.12 ~ 2021.9
         description: |
           My undergraduate thesis was on applying differentiable NAS(with Gumbel-softmax), choosing [Binary | INT8] layerwise, targeting image classification network on TinyML.
-
           It was extension of [lightb0x/arduino_trash_classification](https://github.com/lightb0x/arduino_trash_classification)
       - layout: left
-        title: Cloud management group, Samsung Electronics
+        title: Samsung Electronics
         sub_title: Internship
         caption: 2020.1.6 ~ 2020.2.14
         description: | # this will include new lines to allow paragraphs
-          Objective of the team was to try out new technologies, especially Kubernetes and Terraform at that time.
+          In cloud management group, objective of the team was to try out new technologies, especially Kubernetes and Terraform at that time.
 
           I tried toy project with React, golang-gin, Docker, Kubernetes, Terraform.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Graduate
+        # sub_title: Graduate
+        caption: 2021.9 ~
+        description: | # this will include new lines to allow paragraphs
+          Ph.D candidate at CMALab, Seoul National University, Computer Science & Engineering
+      - layout: left
+        title: Undergraduate
+        # sub_title: Undergraduate
+        caption: 2015.3 ~ 2017.7 // 2019.7 ~ 2021.8
+        description: |
+          Seoul National University, Computer Science & Engineering
   - title: Topics Of Interest (extended)
     layout: text
     content: | # this will include new lines to allow paragraphs
