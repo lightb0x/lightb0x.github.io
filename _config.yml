@@ -12,7 +12,7 @@ email: lightb0x@snu.ac.kr
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: https://github.com/lightb0x
+# website: https://github.com/lightb0x
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -141,24 +141,6 @@ content:
           This course covers latest topics.
 
           In 2022, I covered YOLOv5 and applying NIPQ on it.
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: CMALab, Seoul National University
-        sub_title: Internship
-        caption: 2020.12 ~ 2021.9
-        description: |
-          My undergraduate thesis was on applying differentiable NAS(with Gumbel-softmax), choosing [Binary | INT8] layerwise, targeting image classification network on TinyML.
-          It was extension of [lightb0x/arduino_trash_classification](https://github.com/lightb0x/arduino_trash_classification)
-      - layout: left
-        title: Samsung Electronics
-        sub_title: Internship
-        caption: 2020.1.6 ~ 2020.2.14
-        description: | # this will include new lines to allow paragraphs
-          In cloud management group, objective of the team was to try out new technologies, especially Kubernetes and Terraform at that time.
-
-          I tried toy project with React, golang-gin, Docker, Kubernetes, Terraform.
   - title: Education
     layout: list
     content:
@@ -174,6 +156,25 @@ content:
         caption: 2015.3 ~ 2017.7 // 2019.7 ~ 2021.8
         description: |
           Seoul National University, Computer Science & Engineering
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: CMALab, Seoul National University
+        sub_title: Internship
+        caption: 2020.12 ~ 2021.9
+        description: |
+          My undergraduate thesis was on applying differentiable NAS(with Gumbel-softmax), choosing [Binary | INT8] layerwise, targeting image classification network on TinyML.
+
+          It was extension of [lightb0x/arduino_trash_classification](https://github.com/lightb0x/arduino_trash_classification)
+      - layout: left
+        title: Samsung Electronics
+        sub_title: Internship
+        caption: 2020.1.6 ~ 2020.2.14
+        description: | # this will include new lines to allow paragraphs
+          In cloud management group, objective of the team was to try out new technologies, especially Kubernetes and Terraform at that time.
+
+          I tried toy project with React, golang-gin, Docker, Kubernetes, Terraform.
   - title: Topics Of Interest (extended)
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -181,7 +182,7 @@ content:
 
       From 2021, I am working on differentiable mixed precision quantization.
 
-      In 2023, I designed a simple, reconfigurable fetch-decode-execute outer product matrix-matrix multiplication accelerator on Amaranth, as part of Hardware System Design course.
+      In 2023, I designed a simple, reconfigurable fetch-decode-execute outer product matrix-matrix multiplication accelerator on Amaranth, as part of revising Hardware System Design course.
 
       My current topic of interest is lightweight quantization scheme for LLMs.
 # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
