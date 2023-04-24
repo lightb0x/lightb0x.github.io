@@ -182,7 +182,7 @@ content:
 
       From 2021, I am working on differentiable mixed precision quantization.
 
-      In 2023, I designed a simple, reconfigurable fetch-decode-execute outer product matrix-matrix multiplication accelerator on Amaranth, as part of revising Hardware System Design course.
+      In 2023, I designed a simple instruction set based reconfigurable outer product matrix-matrix multiplication accelerator on Amaranth, as part of revising Hardware System Design course.
 
       My current topic of interest is lightweight quantization scheme for LLMs.
 # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
