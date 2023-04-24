@@ -164,7 +164,7 @@ content:
         sub_title: Internship
         caption: 2020.12 ~ 2021.9
         description: |
-          My undergraduate thesis was on applying differentiable NAS(with Gumbel-softmax), choosing [Binary|INT8] layerwise, targeting image classification network on TinyML.
+          My undergraduate thesis was on applying differentiable NAS(with Gumbel-softmax), choosing [Binary \| INT8] layerwise, targeting image classification network on TinyML.
 
           It was extension of [lightb0x/arduino_trash_classification](https://github.com/lightb0x/arduino_trash_classification)
       - layout: left
