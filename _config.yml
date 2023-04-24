@@ -53,7 +53,9 @@ orcid_username: 0000-0001-9490-3822
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm CSE student/Ph.D candidate at [CMALab, Seoul National University](http://cmalab.snu.ac.kr/).
+
   My general topic of interest is **hardware-software co-design**.
+
   Specifically, (from software down to hardware)
     - Applications
       - **Vision**, [YOLOv5](https://github.com/ultralytics/yolov5)
@@ -82,6 +84,7 @@ content:
         title: "NIPQ: Noise proxy-based Integrated Pseudo-Quantization"
         description: |
           CVPR 2023
+
           Differentiable mixed precision QAT, part of IITP project.
           
   - title: Projects
@@ -91,7 +94,9 @@ content:
         border: weak
         title: IITP governmental project
         quote: >
-          Development of model compression framework for scalable on-device AI computing on Edge applications. MSIT, No.2019-0-01906, No.2021-0-00105, and No.2021-0-00310
+          Development of model compression framework for scalable on-device AI computing on Edge applications.
+
+          MSIT, No.2019-0-01906, No.2021-0-00105, and No.2021-0-00310
         description: | # this will include new lines to allow paragraphs
           I'm contributing to the project starting from 2H 2021. My focus is devising a differentiable mixed-precision quantization algorithm and proving its effectiveness on various applications.
       - layout: left
@@ -111,7 +116,44 @@ content:
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           From SNUCSE 2020 "creative integrated design" class.
-          Trash classification on Arduino Nano 33 BLE.
+
+          Trash classification on Arduino Nano 33 BLE and Raspberry Pi 2.
+
+          From training various models(MbV1, MbV2, ShV2) on resized imagenet(96x96, 128x128, ...), fine-tuning on trashnet down to actually running on hardwares.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Seoul National University, Computer Science & Engineering
+        sub_title: Graduate
+        caption: 2021.9 ~
+      - layout: left
+        title: Seoul National University, Computer Science & Engineering
+        sub_title: Undergraduate
+        caption: 2015.3 ~ 2017.7 // 2019.7 ~ 2021.8
+        description: | # this will include new lines to allow paragraphs
+          Ph.D candidate at CMALab
+  - title: Coursework TA
+    layout: list
+    content:
+      - layout: left
+        title: Hardware System Design
+        caption: "2022, 2023"
+        description: |
+          This course is about hardware-software co-design.
+
+          Till 2022, the course covered: Xilinx FPGA (Zedboard) ~ Vivado ~ verilog ~ C++ ~ MNIST classification(caffe2).
+
+          In 2023, I revised the course to be: Amaranth simulator ~ torch.
+      - layout: left
+        title: Embedded Systems and Applications
+        caption: "2022"
+        link: https://github.com/lightb0x/yolov5_nipq_practice
+        link_text: lightb0x/yolov5_nipq_practice
+        description: |
+          This course covers latest topics.
+
+          In 2022, I covered YOLOv5 and applying NIPQ on it.
   - title: Experience
     layout: list
     content:
@@ -121,6 +163,7 @@ content:
         caption: 2020.12 ~ 2021.9
         description: |
           My undergraduate thesis was on applying differentiable NAS(with Gumbel-softmax), choosing [Binary | INT8] layerwise, targeting image classification network on TinyML.
+
           It was extension of [lightb0x/arduino_trash_classification](https://github.com/lightb0x/arduino_trash_classification)
       - layout: left
         title: Cloud management group, Samsung Electronics
@@ -128,45 +171,17 @@ content:
         caption: 2020.1.6 ~ 2020.2.14
         description: | # this will include new lines to allow paragraphs
           Objective of the team was to try out new technologies, especially Kubernetes and Terraform at that time.
+
           I tried toy project with React, golang-gin, Docker, Kubernetes, Terraform.
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Seoul National University, Computer Science & Engineering
-        sub_title: Undergraduate
-        caption: 2015.3 ~ 2017.7 // 2019.7 ~ 2021.8
-        description: | # this will include new lines to allow paragraphs
-          Ph.D candidate at CMALab
-      - layout: left
-        title: Seoul National University, Computer Science & Engineering
-        sub_title: Graduate
-        caption: 2021.9 ~
-  - title: Coursework TA
-    layout: list
-    content:
-      - layout: left
-        title: Hardware System Design
-        caption: "2022, 2023"
-        description: |
-          This course is about hardware-software co-design.
-          Till 2022, it was Xilinx FPGA (Zedboard) ~ verilog ~ C++ ~ MNIST classification(caffe2).
-          In 2023, I revised the coursework to be: Amaranth simulator ~ torch.
-      - layout: left
-        title: Embedded Systems and Applications
-        caption: "2022"
-        link: https://github.com/lightb0x/yolov5_nipq_practice
-        link_text: lightb0x/yolov5_nipq_practice
-        description: |
-          This course covers latest topics.
-          In 2022, I covered YOLOv5 and applying NIPQ on it.
   - title: Topics Of Interest (extended)
     layout: text
     content: | # this will include new lines to allow paragraphs
       Quantization was first topic of interest from 2020.
 
       From 2021, I am working on differentiable mixed precision quantization.
+
       In 2023, I designed a simple, reconfigurable fetch-decode-execute outer product matrix-matrix multiplication accelerator on Amaranth, as part of Hardware System Design course.
+
       My current topic of interest is lightweight quantization scheme for LLMs.
 # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
