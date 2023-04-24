@@ -1,37 +1,37 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: lightb0x/lightb0x.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Myeonghwan AHN
+title: Ph.D candidate at CMALab, SNUCSE
+email: lightb0x@snu.ac.kr
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://github.com/lightb0x
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  lightb0x
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+orcid_username: 0000-0001-9490-3822
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -50,66 +50,127 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I'm CSE student/Ph.D candidate at [CMALab, Seoul National University](http://cmalab.snu.ac.kr/).
+  My general topic of interest is **hardware-software co-design**.
+  Specifically, (from software down to hardware)
+    - Applications
+      - **Vision**, [YOLOv5](https://github.com/ultralytics/yolov5)
+      - **LLM**, [LLaMA.cpp](https://github.com/ggerganov/llama.cpp)
+      - Neural rendering, [MobileR2L](https://github.com/snap-research/MobileR2L)
+    - **Quantization**
+    - NN compiler
+      - [Apache tvm](https://github.com/apache/tvm)
+      - [pytorch glow](https://github.com/pytorch/glow)
+    - RTL
+      - [**Amaranth**](https://github.com/amaranth-lang/amaranth)
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+#   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
+#   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#     - Lists
+#     - Tables
+#     - <a href="google.com">Links</a>
+#     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Publication
+    layout: list
     content:
+      - layout: left
+        border: weak
+        title: "NIPQ: Noise proxy-based Integrated Pseudo-Quantization"
+        description: |
+          CVPR 2023
+          Differentiable mixed precision QAT, part of IITP project.
+          
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: IITP governmental project
+        quote: >
+          Development of model compression framework for scalable on-device AI computing on Edge applications. MSIT, No.2019-0-01906, No.2021-0-00105, and No.2021-0-00310
+        description: | # this will include new lines to allow paragraphs
+          I'm contributing to the project starting from 2H 2021. My focus is devising a differentiable mixed-precision quantization algorithm and proving its effectiveness on various applications.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title: TinyML image classification
+        link: https://github.com/lightb0x/arduino_trash_classification
+        link_text: lightb0x/arduino_trash_classification
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          From SNUCSE 2020 "creative integrated design" class.
+          Trash classification on Arduino Nano 33 BLE.
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      - layout: left
+        title: CMALab, Seoul National University
+        sub_title: Internship
+        caption: 2020.12 ~ 2021.9
+        description: |
+          My undergraduate thesis was on applying differentiable NAS(with Gumbel-softmax), choosing [Binary | INT8] layerwise, targeting image classification network on TinyML.
+          It was extension of [lightb0x/arduino_trash_classification](https://github.com/lightb0x/arduino_trash_classification)
+      - layout: left
+        title: Cloud management group, Samsung Electronics
+        sub_title: Internship
+        caption: 2020.1.6 ~ 2020.2.14
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Objective of the team was to try out new technologies, especially Kubernetes and Terraform at that time.
+          I tried toy project with React, golang-gin, Docker, Kubernetes, Terraform.
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: left
+        title: Seoul National University, Computer Science & Engineering
+        sub_title: Undergraduate
+        caption: 2015.3 ~ 2017.7 // 2019.7 ~ 2021.8
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Ph.D candidate at CMALab
+      - layout: left
+        title: Seoul National University, Computer Science & Engineering
+        sub_title: Graduate
+        caption: 2021.9 ~
+  - title: Coursework TA
+    layout: list
+    content:
+      - layout: left
+        title: Hardware System Design
+        caption: "2022, 2023"
+        description: |
+          This course is about hardware-software co-design.
+          Till 2022, it was Xilinx FPGA (Zedboard) ~ verilog ~ C++ ~ MNIST classification(caffe2).
+          In 2023, I revised the coursework to be: Amaranth simulator ~ torch.
+      - layout: left
+        title: Embedded Systems and Applications
+        caption: "2022"
+        link: https://github.com/lightb0x/yolov5_nipq_practice
+        link_text: lightb0x/yolov5_nipq_practice
+        description: |
+          This course covers latest topics.
+          In 2022, I covered YOLOv5 and applying NIPQ on it.
+  - title: Topics Of Interest (extended)
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      Quantization was first topic of interest from 2020.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      From 2021, I am working on differentiable mixed precision quantization.
+      In 2023, I designed a simple, reconfigurable fetch-decode-execute outer product matrix-matrix multiplication accelerator on Amaranth, as part of Hardware System Design course.
+      My current topic of interest is lightweight quantization scheme for LLMs.
+# This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+# Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
