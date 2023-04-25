@@ -149,7 +149,7 @@ content:
         # sub_title: Graduate
         caption: 2021.9 ~
         description: | # this will include new lines to allow paragraphs
-          Ph.D candidate at CMALab, Seoul National University, Computer Science & Engineering
+          Ph.D candidate at CMALab, Seoul National University
       - layout: left
         title: Undergraduate
         # sub_title: Undergraduate
