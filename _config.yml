@@ -82,14 +82,14 @@ content:
       - layout: left
         border: weak
         title: "NIPQ: Noise proxy-based Integrated Pseudo-Quantization"
-        quote: >
-          I was accidentally not included in the author list. You can find me in the Acknowledgements section.
         description: |
           CVPR 2023
 
           Juncheol Shin, Junhyuk So, Sein Park, Seungyeop Kang, Sungjoo Yoo, and Eunhyeok Park
 
           Differentiable mixed precision QAT, part of IITP project.
+        quote: >
+          I was accidentally not included in the author list. You can find me in the Acknowledgements section.
 
       - layout: left
         border: weak
@@ -107,12 +107,12 @@ content:
       - layout: left
         border: weak
         title: IITP governmental project
+        description: | # this will include new lines to allow paragraphs
+          I'm contributing to the project starting from 2H 2021. My focus is devising a differentiable mixed-precision quantization algorithm and proving its effectiveness on various applications.
         quote: >
           Development of model compression framework for scalable on-device AI computing on Edge applications.
 
           MSIT, No.2019-0-01906, No.2021-0-00105, and No.2021-0-00310
-        description: | # this will include new lines to allow paragraphs
-          I'm contributing to the project starting from 2H 2021. My focus is devising a differentiable mixed-precision quantization algorithm and proving its effectiveness on various applications.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
