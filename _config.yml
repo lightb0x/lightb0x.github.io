@@ -86,6 +86,13 @@ content:
           CVPR 2023
 
           Differentiable mixed precision QAT, part of IITP project.
+      - layout: left
+        border: weak
+        title: "BlindFilter: Privacy-Preserving Spam Email Detection Using Homomorphic Encryption"
+        description: |
+          SRDS 2023
+          
+          Pseudo quantization noise as a defensive measure against adversarial attack on parameters of homomorphic encryption algorithm.
           
   - title: Projects
     layout: list
