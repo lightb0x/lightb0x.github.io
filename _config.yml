@@ -82,11 +82,12 @@ content:
       - layout: left
         border: weak
         title: "NIPQ: Noise proxy-based Integrated Pseudo-Quantization"
+        quote: >
+          I was accidentally not included in the author list. You can find me in the Acknowledgements section.
         description: |
           CVPR 2023
 
           Juncheol Shin, Junhyuk So, Sein Park, Seungyeop Kang, Sungjoo Yoo, and Eunhyeok Park
-          I was accidentally not included in the author list. You can find me in the Acknowledgements section.
 
           Differentiable mixed precision QAT, part of IITP project.
 
@@ -96,7 +97,7 @@ content:
         description: |
           SRDS 2023
           
-          Dongwon Lee, *Myeonghwan Ahn*, Hyesun Kwak, Jin B. Hong and Hyoungshick Kim
+          Dongwon Lee, **Myeonghwan Ahn**, Hyesun Kwak, Jin B. Hong and Hyoungshick Kim
           
           Pseudo quantization noise as a defensive measure against adversarial attack on parameters of homomorphic encryption algorithm.
           
