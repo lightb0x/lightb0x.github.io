@@ -146,8 +146,13 @@ content:
           Till 2022, the course covered: Xilinx FPGA (Zedboard) ~ Vivado ~ verilog ~ C++ ~ MNIST classification(caffe2).
 
           In 2023, I revised the course to be: Amaranth simulator ~ simple NN compiler ~ torch.
-      
-          I designed a simple instruction set based reconfigurable outer product matrix-matrix multiplication accelerator on Amaranth.
+            * GEMM accelerator
+              * simple instruction set
+              * reconfigurable
+              * outer product matrix-matrix multiplication
+              * on Amaranth
+            * simple NN compiler
+              * generate simple instruction set code given input pytorch GEMM
       - layout: left
         title: Embedded Systems and Applications
         caption: "2022"
