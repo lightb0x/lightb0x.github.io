@@ -146,6 +146,8 @@ content:
           Till 2022, the course covered: Xilinx FPGA (Zedboard) ~ Vivado ~ verilog ~ C++ ~ MNIST classification(caffe2).
 
           In 2023, I revised the course to be: Amaranth simulator ~ simple NN compiler ~ torch.
+      
+          I designed a simple instruction set based reconfigurable outer product matrix-matrix multiplication accelerator on Amaranth.
       - layout: left
         title: Embedded Systems and Applications
         caption: "2022"
@@ -189,16 +191,6 @@ content:
           In cloud management group, objective of the team was to try out new technologies, especially Kubernetes and Terraform at that time.
 
           I tried toy project with React, golang-gin, Docker, Kubernetes, Terraform.
-  - title: Topics Of Interest (extended)
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Quantization was first topic of interest from 2020.
-
-      From 2021, I am working on differentiable mixed precision quantization.
-
-      In 2023, I designed a simple instruction set based reconfigurable outer product matrix-matrix multiplication accelerator on Amaranth, as part of revising Hardware System Design course.
-
-      My current topic of interest is lightweight quantization scheme for LLMs.
 # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
 # Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
