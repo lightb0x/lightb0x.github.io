@@ -63,8 +63,8 @@ about_content: | # this will include new lines to allow paragraphs
       - Neural rendering, [MobileR2L](https://github.com/snap-research/MobileR2L)
     - **Quantization**
     - NN compiler
+      - [OpenAI Triton](https://github.com/openai/triton)
       - [Apache tvm](https://github.com/apache/tvm)
-      - [pytorch glow](https://github.com/pytorch/glow)
     - RTL
       - [**Amaranth**](https://github.com/amaranth-lang/amaranth)
 
