@@ -36,7 +36,7 @@ orcid_username: 0000-0001-9490-3822
 # Additional icon links
 additional_links:
 - title: discord
-  icon: fa-discord
+  icon: fab fa-discord
   url: https://discordapp.com/users/268055738989936640
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
