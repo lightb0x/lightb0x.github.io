@@ -56,15 +56,13 @@ about_content: | # this will include new lines to allow paragraphs
 
   My general topic of interest is **hardware-software co-design**.
 
-  Specifically, (from software down to hardware)
+  Specifically, from application down to hardware:
     - Applications
       - **Vision**, [YOLOv5](https://github.com/ultralytics/yolov5)
-      - **LLM**, [LLaMA.cpp](https://github.com/ggerganov/llama.cpp)
-      - Neural rendering, [MobileR2L](https://github.com/snap-research/MobileR2L)
+      - **LLM**, [LLaMA.cpp](https://github.com/ggerganov/llama.cpp), [Mamba](https://github.com/state-spaces/mamba) and [Jamba](https://huggingface.co/ai21labs/Jamba-v0.1)
     - **Quantization**
     - NN compiler
       - [OpenAI Triton](https://github.com/openai/triton)
-      - [Apache tvm](https://github.com/apache/tvm)
     - RTL
       - [**Amaranth**](https://github.com/amaranth-lang/amaranth)
 
@@ -106,6 +104,15 @@ content:
     content:
       - layout: left
         border: weak
+        title: Lab cluster networking and management
+        description: | # this will include new lines to allow paragraphs
+          * Designed and implemented networking for cluster in our lab.
+            * Network consists of two spine-leaf architecture fabrics: one for management and the other for data.
+            * Each fabric is implemented as OSPF + ECMP with L3 HW offloading.
+          * Implemented all-flash Ceph storage cluster.
+          * Implemented management system for the whole cluster using canonical MAAS.
+      - layout: left
+        border: weak
         title: IITP governmental project
         description: | # this will include new lines to allow paragraphs
           I'm contributing to the project starting from 2H 2021. My focus is devising a differentiable mixed-precision quantization algorithm and proving its effectiveness on various applications.
@@ -141,7 +148,7 @@ content:
         title: Hardware System Design
         caption: "2022, 2023"
         description: |
-          This course is about hardware-software co-design.
+          This course covers hardware-software co-design in terms of building custom NN accelerator.
 
           Till 2022, the course covered: Xilinx FPGA (Zedboard) ~ Vivado ~ verilog ~ C++ ~ MNIST classification(caffe2).
 
@@ -159,7 +166,7 @@ content:
         link: https://github.com/lightb0x/yolov5_nipq_practice
         link_text: lightb0x/yolov5_nipq_practice
         description: |
-          This course covers latest topics.
+          This course covers latest topics in ML applications overall.
 
           In 2022, I covered YOLOv5 and applying NIPQ on it.
   - title: Education
