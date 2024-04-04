@@ -107,7 +107,7 @@ content:
         title: Lab cluster networking and management
         description: | # this will include new lines to allow paragraphs
           * Designed and implemented networking for cluster in our lab.
-            * Network consists of two leaf-spine architecture fabrics: one for management and the other for data.
+            * Network consists of two leaf-spine fabrics: one for management and the other for data.
             * Each fabric is implemented as OSPF + ECMP with L3 HW offloading.
           * Implemented all-flash Ceph storage cluster.
           * Implemented management system for the whole cluster using canonical MAAS.
