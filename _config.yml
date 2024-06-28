@@ -106,16 +106,14 @@ content:
         border: weak
         title: Lab cluster networking and management
         description: | # this will include new lines to allow paragraphs
-          * Designed and implemented networking for cluster in our lab.
+          * Designed and implemented networking for the cluster in our lab.
             * 9(=5+2+2) racks across 3 sites
             * management fabric
               * OSPF over WireGuard site-to-site
-              * leaf-spine for each site
-              * 10G ~ 1G
+              * 10G ~ 1G leaf-spine for each site
             * data fabric for 5-rack site
               * OSPF + ECMP leaf-spine with L3 HW offloading
-              * jumbo frame
-              * 100G ~ 10G
+              * 100G ~ 10G with jumbo frame
           * Implemented all-flash Ceph storage cluster in data fabric.
           * Implemented management system for the whole cluster using canonical MAAS.
       - layout: left
