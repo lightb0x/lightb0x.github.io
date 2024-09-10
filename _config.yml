@@ -115,7 +115,21 @@ content:
               * OSPF + ECMP leaf-spine with L3 HW offloading
               * 100G ~ 10G with jumbo frame
           * Implemented all-flash Ceph storage cluster in data fabric.
-          * Implemented management system for the whole cluster using canonical MAAS.
+          * Implemented management system for the whole cluster
+            * monitoring via node-exporter, Prometheus and Grafana
+            * automatic alert using Grafana and Discord webhook
+              * anomaly temperature
+              * unhealthy Ceph state
+              * idle on-demand GPUs
+            * on-demand resources as-user-want via canonical MAAS
+      - layout: left
+        border: weak
+        title: Samsung MX project
+        description: | # this will include new lines to allow paragraphs
+          I'm contributing to the project starting from 2H 2024.
+        quote: >
+          한글: 본 연구는 삼성전자 MX사업부의 지원을 받아 수행한 결과임
+          ENG: This was supported by Mobile eXperience(MX) Business, Samsung Electronics Co., Ltd.
       - layout: left
         border: weak
         title: IITP governmental project
