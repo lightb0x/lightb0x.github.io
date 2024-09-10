@@ -128,8 +128,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           I'm contributing to the project starting from 2H 2024.
         quote: >
-          한글: 본 연구는 삼성전자 MX사업부의 지원을 받아 수행한 결과임
-          ENG: This was supported by Mobile eXperience(MX) Business, Samsung Electronics Co., Ltd.
+          This was supported by Mobile eXperience(MX) Business, Samsung Electronics Co., Ltd.
+
+          본 연구는 삼성전자 MX사업부의 지원을 받아 수행한 결과임
       - layout: left
         border: weak
         title: IITP governmental project
