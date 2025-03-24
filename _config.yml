@@ -139,7 +139,7 @@ content:
         border: weak
         title: IITP governmental project
         description: | # this will include new lines to allow paragraphs
-          I'm contributing to the project starting from 2H 2021. My focus is devising a differentiable mixed-precision quantization algorithm and proving its effectiveness on various applications.
+          I'm contributing to the project starting from 2H 2021. The project ended in 2024.
         quote: >
           Development of model compression framework for scalable on-device AI computing on Edge applications.
 
