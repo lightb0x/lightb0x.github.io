@@ -31,7 +31,7 @@ github_username:  lightb0x
 # pinterest_username: jekyll
 # youtube_username: jekyll
 orcid_username: 0000-0001-9490-3822
-# googlescholar_username: D847cGsAAAAJ
+googlescholar_username: ZgYgIU4AAAAJ
 
 # Additional icon links
 additional_links:
@@ -59,7 +59,7 @@ about_content: | # this will include new lines to allow paragraphs
   Specifically, from application down to hardware:
     - Applications
       - **Vision**, [YOLOv5](https://github.com/ultralytics/yolov5)
-      - **LLM**, [LLaMA.cpp](https://github.com/ggerganov/llama.cpp), [Mamba](https://github.com/state-spaces/mamba) and [Jamba](https://huggingface.co/ai21labs/Jamba-v0.1)
+      - **LLM**, [LLaMA.cpp](https://github.com/ggerganov/llama.cpp)
     - **Quantization**
     - NN compiler
       - [OpenAI Triton](https://github.com/openai/triton)
@@ -174,9 +174,9 @@ content:
         description: |
           This course covers hardware-software co-design in terms of building custom NN accelerator.
 
-          Till 2022, the course covered: Xilinx FPGA (Zedboard) ~ verilog on Vivado ~ C++ ~ MNIST classification(caffe2).
+          Till 2022, the course covered: Xilinx FPGA (Zedboard), verilog on Vivado, C++ and MNIST classification (caffe2).
 
-          In 2023, I revised the course to be: Amaranth simulator ~ simple NN compiler ~ torch.
+          In 2023, I revised the course to cover: Amaranth simulator, simple NN compiler, and torch. Specifically:
             * GEMM accelerator
               * simple instruction set
               * reconfigurable
@@ -207,7 +207,7 @@ content:
         # sub_title: Undergraduate
         caption: 2015.3 ~ 2017.7 // 2019.7 ~ 2021.8
         description: |
-          Seoul National University, Computer Science & Engineering
+          Dept. of Computer Science and Engineering, Seoul National University
   - title: Experience
     layout: list
     content:
@@ -216,7 +216,7 @@ content:
         sub_title: Internship
         caption: 2020.12 ~ 2021.9
         description: |
-          My undergraduate thesis was on applying differentiable NAS(with Gumbel-softmax), choosing [Binary \| INT8] layerwise, targeting image classification network on TinyML.
+          I wrote my undergraduate thesis during an internship. It focused on applying differentiable neural architecture search (NAS) with Gumbel-softmax to select [Binary\|INT8] layerwise for an image classification network targeted at TinyML.
 
           It was extension of [lightb0x/arduino_trash_classification](https://github.com/lightb0x/arduino_trash_classification)
       - layout: left
@@ -226,7 +226,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           In cloud management group, objective of the team was to try out new technologies, especially Kubernetes and Terraform at that time.
 
-          I tried toy project with React, golang-gin, Docker, Kubernetes, Terraform.
+          I tried toy project with React, golang-gin, Docker, Kubernetes, and Terraform.
 # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
 # Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
