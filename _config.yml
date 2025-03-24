@@ -80,6 +80,8 @@ content:
       - layout: left
         border: weak
         title: "NIPQ: Noise proxy-based Integrated Pseudo-Quantization"
+        link: https://www.computer.org/csdl/proceedings-article/cvpr/2023/012900d852/1POTgOExRmw
+        link_text: 10.1109/CVPR52729.2023.00375
         description: |
           CVPR 2023
 
@@ -87,11 +89,13 @@ content:
 
           Differentiable mixed precision QAT, part of IITP project.
         quote: >
-          I was accidentally not included in the author list. You can find me in the Acknowledgements section.
+          I was accidentally not included in the author list. You can find me in the Acknowledgments section.
 
       - layout: left
         border: weak
         title: "BlindFilter: Privacy-Preserving Spam Email Detection Using Homomorphic Encryption"
+        link: https://www.computer.org/csdl/proceedings-article/srds/2023/291000a035/1UoH6oL3BLO
+        link_text: 10.1109/SRDS60354.2023.00014
         description: |
           SRDS 2023
           
