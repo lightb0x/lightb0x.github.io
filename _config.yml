@@ -80,7 +80,7 @@ content:
       - layout: left
         border: weak
         title: "NIPQ: Noise proxy-based Integrated Pseudo-Quantization"
-        link: https://www.computer.org/csdl/proceedings-article/cvpr/2023/012900d852/1POTgOExRmw
+        link: https://doi.ieeecomputersociety.org/10.1109/CVPR52729.2023.00375
         link_text: 10.1109/CVPR52729.2023.00375
         description: |
           CVPR 2023
@@ -94,7 +94,7 @@ content:
       - layout: left
         border: weak
         title: "BlindFilter: Privacy-Preserving Spam Email Detection Using Homomorphic Encryption"
-        link: https://www.computer.org/csdl/proceedings-article/srds/2023/291000a035/1UoH6oL3BLO
+        link: https://doi.ieeecomputersociety.org/10.1109/SRDS60354.2023.00014
         link_text: 10.1109/SRDS60354.2023.00014
         description: |
           SRDS 2023
