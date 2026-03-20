@@ -1,0 +1,3 @@
+[submodule "content"]
+	path = content
+	url = git@github.com:lightb0x/quartz-content.git
